@@ -1,0 +1,11 @@
+/Users/fahmiprasanda/Documents/rust project/firstproject/target/debug/deps/libubyte-240c2abae41376d4.rmeta: /Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ubyte-0.10.4/src/lib.rs /Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ubyte-0.10.4/src/arithmetic.rs /Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ubyte-0.10.4/src/byte_unit.rs /Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ubyte-0.10.4/src/parse.rs /Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ubyte-0.10.4/src/ser_de.rs
+
+/Users/fahmiprasanda/Documents/rust project/firstproject/target/debug/deps/libubyte-240c2abae41376d4.rlib: /Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ubyte-0.10.4/src/lib.rs /Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ubyte-0.10.4/src/arithmetic.rs /Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ubyte-0.10.4/src/byte_unit.rs /Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ubyte-0.10.4/src/parse.rs /Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ubyte-0.10.4/src/ser_de.rs
+
+/Users/fahmiprasanda/Documents/rust project/firstproject/target/debug/deps/ubyte-240c2abae41376d4.d: /Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ubyte-0.10.4/src/lib.rs /Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ubyte-0.10.4/src/arithmetic.rs /Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ubyte-0.10.4/src/byte_unit.rs /Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ubyte-0.10.4/src/parse.rs /Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ubyte-0.10.4/src/ser_de.rs
+
+/Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ubyte-0.10.4/src/lib.rs:
+/Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ubyte-0.10.4/src/arithmetic.rs:
+/Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ubyte-0.10.4/src/byte_unit.rs:
+/Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ubyte-0.10.4/src/parse.rs:
+/Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ubyte-0.10.4/src/ser_de.rs:

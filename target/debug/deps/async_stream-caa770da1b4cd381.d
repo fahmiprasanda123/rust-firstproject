@@ -1,0 +1,10 @@
+/Users/fahmiprasanda/Documents/rust project/firstproject/target/debug/deps/libasync_stream-caa770da1b4cd381.rmeta: /Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.6/src/lib.rs /Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.6/src/async_stream.rs /Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.6/src/next.rs /Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.6/src/yielder.rs
+
+/Users/fahmiprasanda/Documents/rust project/firstproject/target/debug/deps/libasync_stream-caa770da1b4cd381.rlib: /Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.6/src/lib.rs /Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.6/src/async_stream.rs /Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.6/src/next.rs /Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.6/src/yielder.rs
+
+/Users/fahmiprasanda/Documents/rust project/firstproject/target/debug/deps/async_stream-caa770da1b4cd381.d: /Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.6/src/lib.rs /Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.6/src/async_stream.rs /Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.6/src/next.rs /Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.6/src/yielder.rs
+
+/Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.6/src/lib.rs:
+/Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.6/src/async_stream.rs:
+/Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.6/src/next.rs:
+/Users/fahmiprasanda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/async-stream-0.3.6/src/yielder.rs:

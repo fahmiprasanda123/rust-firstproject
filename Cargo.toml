@@ -1,6 +1,15 @@
-   [package]  
-   name = "firstproject"  
-   version = "0.1.0"  
-   edition = "2021"  
+[package]  
+name = "rust-firstproject"  
+version = "0.1.0"  
+edition = "2021"  
   
-   [dependencies]  
+[dependencies]  
+rocket = "0.5.0-rc.1"  
+  
+[[bin]]  
+name = "rust-firstproject"  
+path = "src/main.rs"  
+
+[default]
+address = "0.0.0.0"
+port = 8000
