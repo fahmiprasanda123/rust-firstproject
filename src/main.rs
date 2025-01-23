@@ -1,7 +1,9 @@
 #[macro_use]  
 extern crate rocket;  
-  
-mod basic; // Mengimpor modul basic  
+
+// Mengimpor modul basic  
+mod basic; 
+mod ownership_borrowing;
   
 #[get("/")]  
 fn index() -> &'static str {  
@@ -28,6 +30,22 @@ fn move_player(direction: String) -> String {
 }  
 // end basic
 
+//ownership borrowing start
+#[get("/ownership")]  
+fn ownership() -> &'static str {  
+    ownership_borrowing::ownership_example();  
+    "Ownership example executed!"  
+}  
+  
+#[get("/borrowing")]  
+fn borrowing() -> &'static str {  
+    ownership_borrowing::borrowing_example();  
+    "Borrowing example executed!"  
+} 
+//end ownership borrowing
+
+
+//untuk launch route
 #[launch]  
 fn rocket() -> _ {  
     rocket::build()  
@@ -36,6 +54,7 @@ fn rocket() -> _ {
             port:8000,  //docker
             // port: 8080,  //cargo run
             ..Default::default()  
-        })  
-        .mount("/", routes![index, add, move_player])  
+        })
+        //untuk mengatur route
+        .mount("/", routes![index, add, move_player, ownership, borrowing])  
 }  

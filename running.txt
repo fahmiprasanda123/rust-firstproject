@@ -1,13 +1,14 @@
 
-rebuild docker
+--------rebuild docker
 docker build -t rust-firstproject .
-
+--------running docker
 docker run --rm -p 8000:8000 rust-firstproject
 
 cargo run (tanpa docker)
 
-basic rust
+---------Start basic rust
 penjumlahan
 http://localhost:8080/add/5/10
 moving player
 http://localhost:8080/move/up
+----------End basic rust
