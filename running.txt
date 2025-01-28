@@ -12,3 +12,16 @@ http://localhost:8080/add/5/10
 moving player
 http://localhost:8080/move/up
 ----------End basic rust
+
+
+
+Mengakses Endpoint
+Akses http://localhost:8000/ untuk melihat "Hello, world!".
+Akses http://localhost:8000/lifetimes untuk menjalankan contoh lifetimes.
+Akses http://localhost:8000/error untuk menjalankan contoh error handling.
+Akses http://localhost:8000/traits untuk menjalankan contoh traits.
+Akses http://localhost:8000/collections untuk menjalankan contoh collections.
+Akses http://localhost:8000/ownership untuk menjalankan contoh ownership.
+Akses http://localhost:8000/borrowing untuk menjalankan contoh borrowing.
+Akses http://localhost:8000/add/5/10 untuk menjumlahkan 5 dan 10.
+Akses http://localhost:8000/move/up untuk memindahkan pemain ke atas.

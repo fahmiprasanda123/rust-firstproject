@@ -1,16 +1,43 @@
 #[macro_use]  
 extern crate rocket;  
-
-// Mengimpor modul basic  
-mod basic; 
-mod ownership_borrowing;
+  
+mod basic; // Mengimpor modul basic  
+mod ownership_borrowing; // Mengimpor modul ownership_borrowing  
+mod lifetimes; // Mengimpor modul lifetimes  
+mod error_handling; // Mengimpor modul error_handling  
+mod traits_generics; // Mengimpor modul traits_generics  
+mod collections; // Mengimpor modul collections  
   
 #[get("/")]  
 fn index() -> &'static str {  
     "Hello, world!"  
 }  
   
-// start basic
+#[get("/lifetimes")]  
+fn lifetimes_example() -> &'static str {  
+    lifetimes::lifetimes_example();  
+    "Lifetimes example executed!"  
+}  
+  
+#[get("/error")]  
+fn error_handling_example() -> &'static str {  
+    error_handling::error_handling_example();  
+    "Error handling example executed!"  
+}  
+  
+#[get("/traits")]  
+fn traits_example() -> &'static str {  
+    traits_generics::traits_generics_example();  
+    "Traits example executed!"  
+}  
+  
+#[get("/collections")]  
+fn collections_example() -> &'static str {  
+    collections::collections_example();  
+    "Collections example executed!"  
+}  
+  
+// Start basic  
 #[get("/add/<a>/<b>")]  
 fn add(a: i32, b: i32) -> String {  
     let sum = basic::add(a, b);  
@@ -27,34 +54,33 @@ fn move_player(direction: String) -> String {
         _ => return "Invalid direction".to_string(),  
     };  
     basic::move_player(dir)  
-}  
-// end basic
-
-//ownership borrowing start
+}    
+// End basic  
+  
+// Ownership borrowing start  
 #[get("/ownership")]  
-fn ownership() -> &'static str {  
+fn ownership_example() -> &'static str {  
     ownership_borrowing::ownership_example();  
     "Ownership example executed!"  
 }  
   
 #[get("/borrowing")]  
-fn borrowing() -> &'static str {  
+fn borrowing_example() -> &'static str {  
     ownership_borrowing::borrowing_example();  
     "Borrowing example executed!"  
-} 
-//end ownership borrowing
-
-
-//untuk launch route
+}  
+// End ownership borrowing  
+  
+// Untuk launch route  
 #[launch]  
 fn rocket() -> _ {  
     rocket::build()  
         .configure(rocket::Config {  
-            address: "0.0.0.0".parse().unwrap(),
-            port:8000,  //docker
-            // port: 8080,  //cargo run
+            address: "0.0.0.0".parse().unwrap(),  
+            port: 8000,  //docker  
+            // port: 8080,  //cargo run  
             ..Default::default()  
-        })
-        //untuk mengatur route
-        .mount("/", routes![index, add, move_player, ownership, borrowing])  
+        })  
+        // Untuk mengatur route  
+        .mount("/", routes![index, add, move_player, ownership_example, borrowing_example, lifetimes_example, error_handling_example, traits_example, collections_example])  
 }  

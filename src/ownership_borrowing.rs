@@ -1,3 +1,5 @@
+// ownership_borrowing.rs  
+  
 pub fn ownership_example() {  
     let s1 = String::from("Hello, Rust!"); // s1 adalah pemilik string  
     let s2 = s1; // s2 sekarang menjadi pemilik, s1 tidak lagi valid  
@@ -5,7 +7,7 @@ pub fn ownership_example() {
     // println!("{}", s1); // Ini akan menyebabkan kesalahan karena s1 tidak valid  
     println!("{}", s2); // Ini valid  
 }  
-
+  
 pub fn borrowing_example() {  
     let s1 = String::from("Hello, Borrowing!");  
   
